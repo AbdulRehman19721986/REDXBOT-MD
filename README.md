@@ -1,6 +1,6 @@
 # 🔥 REDXBOT302 v7.0 ULTRA
 
-> **Advanced WhatsApp Bot — Combined REDXBOT302 v6 + MUZAMIL-XD Best Features**
+> **Advanced WhatsApp Bot — Combined REDXBOT302 v6**
 >
 > 👑 **Owner:** Abdul Rehman Rajpoot | +923009842133  
 > ⭐ **GitHub:** https://github.com/AbdulRehman19721986/redxbot302  
