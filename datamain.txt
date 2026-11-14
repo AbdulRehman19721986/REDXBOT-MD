@@ -1,5 +1,5 @@
 ============================================================
-         REDXBOT302 v7.0 ULTRA — by Abdul Rehman Rajpoot
+         REDx MD Bot — formerly REDXBOT302 — by Abdul Rehman Rajpoot
 ============================================================
 
 ownername Abdul Rehman Rajpoot
@@ -10,7 +10,7 @@ watsapp number owner number +923009842133
 * Telegram Group: https://t.me/TeamRedxhacker2
 * YouTube: https://youtube.com/@rootmindtech
 
-botgithub https://github.com/AbdulRehman19721986/redxbot302
+botgithub https://github.com/AbdulRehman19721986/REDXBOT-MD
 watsapp group https://chat.whatsapp.com/LhSmx2SeXX75r8I2bxsNDo
 my group news letter id = 120363405513439052@newsletter
 botdp image https://files.catbox.moe/s36b12.jpg

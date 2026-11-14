@@ -1,110 +1,114 @@
-# 🔥 REDXBOT302 v7.0 ULTRA
+# REDx MD Bot — WhatsApp Multi-Device Bot
 
-> **Advanced WhatsApp Bot — Combined REDXBOT302 v6**
->
-> 👑 **Owner:** Abdul Rehman Rajpoot | +923009842133  
-> ⭐ **GitHub:** https://github.com/AbdulRehman19721986/redxbot302  
-> 📢 **Channel:** https://whatsapp.com/channel/0029VbCMUDuLikgGEPWQZN3u  
-> 💬 **Group:** https://chat.whatsapp.com/C4ynk2v10WXDeL67ahhJLj  
-> ▶️ **YouTube:** https://youtube.com/@rootmindtech  
-> 🔗 **Telegram:** https://t.me/TeamRedxhacker2  
+**REDx MD Bot** is a WhatsApp Multi-Device automation bot project developed and maintained by **Abdul Rehman Rajpoot**.
 
----
+> **Project name history:** This project was previously published as **REDXBOT302**. REDx MD Bot is its current name; REDXBOT302 is retained here as the former name so existing users can recognize the project.
 
-## ✅ What's New in v7.0 ULTRA
+- **Developer:** Abdul Rehman Rajpoot
+- **GitHub account:** [@AbdulRehman19721986](https://github.com/AbdulRehman19721986)
+- **Official source repository:** [REDx MD Bot](https://github.com/AbdulRehman19721986/REDXBOT-MD)
+- **WhatsApp Channel:** https://whatsapp.com/channel/0029VbCMUDuLikgGEPWQZN3u
+- **WhatsApp Group:** https://chat.whatsapp.com/C4ynk2v10WXDeL67ahhJLj
+- **YouTube:** https://youtube.com/@rootmindtech
+- **Telegram:** https://t.me/TeamRedxhacker2
 
-| Feature | Status |
-|---|---|
-| Combined 500+ commands from REDXBOT302 v6 + MUZAMIL-XD | ✅ |
-| FFmpeg auto-setup (fixes all media errors) | ✅ |
-| Auto-restart on crash (up to 15 times) | ✅ |
-| 24/7 keep-alive (Heroku, Railway, Render) | ✅ |
-| Single owner only (Abdul Rehman Rajpoot) | ✅ |
-| Co-owner removed from all files | ✅ |
-| Memory management + GC every 3 min | ✅ |
-| Temp file auto-cleanup every 20 min | ✅ |
-| AI commands: GPT, DeepSeek, Bing, Imagine | ✅ |
-| Prayer times, Greetings, Quran commands | ✅ |
-| Rate-limit protection (auto wait on 429) | ✅ |
-| Decryption spam suppressed | ✅ |
-| Hot reload (index.js changes applied live) | ✅ |
-| Syntax check on all plugins at startup | ✅ |
+## About REDx MD Bot
 
----
+REDx MD Bot is a Node.js-based WhatsApp bot built around the Baileys WhatsApp Web library. This repository contains the bot source code, configuration, plugins, and deployment files. The project is intended for users who want to configure and run their own WhatsApp Multi-Device bot.
 
-## 🚀 Quick Setup
+Search terms associated with this project include **REDx MD Bot**, **REDx MD**, **REDXBOT302**, **WhatsApp bot**, **WhatsApp Multi-Device bot**, and **Abdul Rehman Rajpoot**.
 
-### Step 1 — Get Session ID
-Visit: **https://redxpair3-sigma.vercel.app**
+## Features
 
-### Step 2 — Configure
+The project includes commands and tools across several categories:
+
+- **AI tools:** GPT, OpenAI, DeepSeek, Bing, and image-generation integrations
+- **Media:** YouTube, TikTok, Spotify, Facebook, and Instagram-related tools
+- **Group administration:** tagging, promotion, demotion, kick, mute, and unmute
+- **Utilities:** stickers, URL upload, translation, text-to-speech, OCR, and PDF tools
+- **Games and entertainment:** trivia, Wordle, truth-or-dare, and board games
+- **Islamic utilities:** Quran and prayer-time commands
+- **Group protection:** anti-link, anti-badword, anti-delete, and anti-call options
+- **Owner tools:** settings, broadcast, memory clearing, and plugin reload
+
+Feature availability can depend on the configured APIs, environment variables, and installed plugins.
+
+## Quick Setup
+
+### 1. Get a session ID
+
+Use the project's pairing service:
+
+https://redxpair3-sigma.vercel.app
+
+### 2. Configure environment variables
+
 ```bash
 cp sample.env .env
-# Edit .env and add your SESSION_ID
+# Edit .env and add your SESSION_ID and other settings.
 ```
 
-### Step 3 — Install & Run
+### 3. Install dependencies and start
+
 ```bash
 npm install
 node --expose-gc index.js
 ```
 
-### Step 4 — Rebrand (run once)
+### 4. Optional rebrand utility
+
+Run this only when you intend to apply the repository's bundled rebrand utility:
+
 ```bash
 node rebrand.js
 ```
 
----
+## Deployment
 
-## 🌐 Deploy Options
+### Railway
+
+1. Fork this repository and connect it to Railway.
+2. Add the required environment variables, including SESSION_ID.
+3. Deploy the application.
 
 ### Heroku
+
 ```bash
 heroku create
-heroku config:set SESSION_ID=YOUR_ID
+heroku config:set SESSION_ID=YOUR_SESSION_ID
 git push heroku main
 ```
 
-### Railway
-1. Fork this repo → Connect to Railway
-2. Set `SESSION_ID` in env variables
-3. Deploy
+### VPS with PM2
 
-### PM2 (VPS/24h server)
+The existing PM2 process label is retained for compatibility with installations that already use it.
+
 ```bash
 npm install -g pm2
-pm2 start index.js --name redxbot302
-pm2 save && pm2 startup
+pm2 start index.js --name REDXBOT302
+pm2 save
+pm2 startup
 ```
 
----
+## Environment Variables
 
-## 📦 Plugin Categories
+| Variable | Purpose |
+|---|---|
+| `SESSION_ID` | WhatsApp session ID |
+| `PAIRING_NUMBER` | Optional pairing number when not using a session |
+| `BOT_NAME` | Bot display name; defaults to `REDx MD Bot` |
+| `COMMAND_MODE` | Command access mode, such as `public` or `private` |
+| `TIMEZONE` | Time zone; defaults to `Asia/Karachi` |
+| `APP_URL` | Application URL used by supported keep-alive setup |
 
-- **AI:** `.ai`, `.openai`, `.deepseek`, `.imagine`, `.gpt`, `.llama`, `.mistral`
-- **Downloads:** `.ytdl`, `.tiktok`, `.spotify`, `.fb`, `.ig`, `.yt`
-- **Groups:** `.tagall`, `.promote`, `.demote`, `.kick`, `.mute`, `.unmute`
-- **Tools:** `.sticker`, `.tourl`, `.translate`, `.tts`, `.ocr`, `.pdf`
-- **Fun:** `.greet`, `.ship`, `.truth`, `.dare`, `.wordle`, `.trivia`
-- **Islamic:** `.quran`, `.prayertime`, `.hadith`
-- **Security:** `.antilink`, `.antibadword`, `.antidelete`, `.anticall`
-- **Games:** `.tictactoe`, `.hangman`, `.sudoku`, `.battleship`
-- **Owner:** `.settings`, `.broadcast`, `.clearmemory`, `.reload`
-- ...and 400+ more!
+Keep credentials and private session data in environment variables. Do not commit your real .env file or session ID.
 
----
+## Official Project Links
 
-## ⚙️ Environment Variables
-
-| Variable | Required | Description |
-|---|---|---|
-| `SESSION_ID` | ✅ | From https://redxpair3-sigma.vercel.app |
-| `PAIRING_NUMBER` | Optional | Your number (if no session) |
-| `BOT_NAME` | Optional | Bot display name |
-| `COMMAND_MODE` | Optional | `public` / `private` |
-| `TIMEZONE` | Optional | Default: `Asia/Karachi` |
-| `APP_URL` | Optional | For Heroku keep-alive |
+- **GitHub repository:** https://github.com/AbdulRehman19721986/REDXBOT-MD
+- **Developer profile:** https://github.com/AbdulRehman19721986
+- **WhatsApp Channel:** https://whatsapp.com/channel/0029VbCPnYf96H4SNehkev10
 
 ---
 
-*© 2026 Abdul Rehman Rajpoot — REDXBOT302 v7.0 ULTRA*
+**REDx MD Bot** — developed and maintained by **Abdul Rehman Rajpoot**.

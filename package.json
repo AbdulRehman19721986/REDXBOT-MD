@@ -1,7 +1,7 @@
 {
-  "name": "redxbot302",
+  "name": "redx-md-bot",
   "version": "9.0.0",
-  "description": "Advanced WhatsApp Bot By Abdul Rehman Rajpoot | REDXBOT302",
+  "description": "REDx MD Bot (formerly REDXBOT302), a WhatsApp Multi-Device bot developed by Abdul Rehman Rajpoot",
   "main": "index.js",
   "engines": {
     "node": ">=26.x",
@@ -16,9 +16,13 @@
     "cleanup": "node cleanup.js"
   },
   "keywords": [
-    "whatsapp-bot",
-    "baileys",
+    "redx-md-bot",
+    "redx-md",
     "redxbot302",
+    "whatsapp-bot",
+    "whatsapp-multi-device",
+    "baileys",
+    "nodejs",
     "abdul-rehman-rajpoot",
     "wa-bot"
   ],

@@ -68,7 +68,7 @@ global.APIKeys = {
 // ── Module exports ────────────────────────────────────────────
 module.exports = {
   // Bot identity
-  BOT_NAME:    process.env.BOT_NAME    || 'REDXBOT302',
+  BOT_NAME:    process.env.BOT_NAME    || 'REDx MD Bot',
   BOT_VERSION: process.env.BOT_VERSION || '7.1.0',
   PREFIX:      process.env.PREFIX      || '.',
 

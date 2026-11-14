@@ -1,8 +1,17 @@
 {
-  "name": "redxbot302",
-  "description": "REDXBOT302 – WhatsApp bot by Abdul Rehman Rajpoot",
-  "keywords": ["whatsapp", "bot", "redx"],
-  "repository": "https://github.com/AbdulRehman19721986/redxbot302",
+  "name": "redx-md-bot",
+  "description": "REDx MD Bot (formerly REDXBOT302) — WhatsApp Multi-Device bot by Abdul Rehman Rajpoot",
+  "keywords": [
+    "redx-md-bot",
+    "redx-md",
+    "redxbot302",
+    "whatsapp",
+    "whatsapp-bot",
+    "whatsapp-multi-device",
+    "baileys",
+    "abdul-rehman-rajpoot"
+  ],
+  "repository": "https://github.com/AbdulRehman19721986/REDXBOT-MD",
   "env": {
     "SESSION_ID": {
       "description": "Put your session id here (from https://redxpair3.vercel.app)",
@@ -17,7 +26,7 @@
     "BOT_NAME": {
       "description": "Bot name",
       "required": false,
-      "value": "REDXBOT302"
+      "value": "REDx MD Bot"
     },
     "PREFIX": {
       "description": "Command prefix",
@@ -26,10 +35,18 @@
     }
   },
   "buildpacks": [
-    { "url": "heroku/nodejs" },
-    { "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git" },
-    { "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git" },
-    { "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git" }
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
   ],
   "formation": {
     "web": {
