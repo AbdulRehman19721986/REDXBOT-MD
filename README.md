@@ -1,6 +1,14 @@
-# REDx MD Bot — WhatsApp Multi-Device Bot
+# REDx MD Bot (REDX BOT) — WhatsApp Multi-Device Bot by Abdul Rehman Rajpoot
 
-**REDx MD Bot** is a WhatsApp Multi-Device automation bot project developed and maintained by **Abdul Rehman Rajpoot**.
+**REDx MD Bot (REDX BOT)** is a WhatsApp Multi-Device automation project developed and maintained by **[Abdul Rehman Rajpoot](https://github.com/AbdulRehman19721986)**, owner of **Team RedX**.
+
+## Official REDX project links
+
+- **REDX MINI BOT website:** [https://redxminibot.vercel.app/](https://redxminibot.vercel.app/) — open the public WhatsApp phone-number and QR pairing interface.
+- **REDx MD Bot source code:** [AbdulRehman19721986/REDXBOT-MD](https://github.com/AbdulRehman19721986/REDXBOT-MD).
+- **Developer and Team RedX owner:** [Abdul Rehman Rajpoot (@AbdulRehman19721986)](https://github.com/AbdulRehman19721986).
+
+REDX MINI BOT (also written **REDXMINIBOT** or **REDX Mini**) is the public pairing website associated with this developer's REDX projects. The REDx MD Bot repository is the public source-code project; the pairing website is hosted separately at the Vercel address above.
 
 > **REDX MINI BOT:** The official REDX MINI BOT (REDXMINIBOT) WhatsApp phone-number and QR pairing website is [redxminibot.vercel.app](https://redxminibot.vercel.app/). It is a companion REDX project maintained by the same developer, Abdul Rehman Rajpoot ([GitHub profile](https://github.com/AbdulRehman19721986)).
 
@@ -18,7 +26,7 @@
 
 REDx MD Bot is a Node.js-based WhatsApp bot built around the Baileys WhatsApp Web library. This repository contains the bot source code, configuration, plugins, and deployment files. The project is intended for users who want to configure and run their own WhatsApp Multi-Device bot.
 
-Search terms associated with the REDx projects include **REDX MINI BOT**, **REDXMINIBOT**, **REDX Mini**, **REDX Bot**, **REDx MD Bot**, **REDx MD**, **REDXBOT302**, **WhatsApp bot**, **WhatsApp Multi-Device bot**, **WhatsApp pairing**, **Abdul Rehman Rajpoot**, **AbdulRehmanRajpoot**, and **AbdulRehman19721986**.
+The connected REDX project identity is **REDX BOT**, **REDx MD Bot**, and **REDX MINI BOT / REDXMINIBOT** (the public pairing website). The developer and Team RedX owner is **Abdul Rehman Rajpoot**, using the GitHub account [@AbdulRehman19721986](https://github.com/AbdulRehman19721986). The former project name **REDXBOT302** is retained below for existing users.
 
 ## Features
 
@@ -34,6 +42,20 @@ The project includes commands and tools across several categories:
 - **Owner tools:** settings, broadcast, memory clearing, and plugin reload
 
 Feature availability can depend on the configured APIs, environment variables, and installed plugins.
+
+## REDX MINI BOT and Team RedX — common questions
+
+### Where can I use REDX MINI BOT?
+Use the public pairing website: https://redxminibot.vercel.app/. It supports the pairing methods currently available on that service.
+
+### Who owns Team RedX and develops REDX MINI BOT?
+The developer and owner is **Abdul Rehman Rajpoot**. His GitHub profile is https://github.com/AbdulRehman19721986.
+
+### Is REDX MINI BOT the same as the REDx MD Bot source repository?
+They are related REDX projects. This public repository contains the REDx MD Bot source code. REDX MINI BOT is the separately hosted public pairing website at https://redxminibot.vercel.app/.
+
+### What names may people use to find these projects?
+Common project names include **REDX BOT**, **REDx MD Bot**, **REDX MINI BOT**, **REDXMINIBOT**, and the former name **REDXBOT302**. These names describe the related REDX projects; they are not separate GitHub owners.
 
 ## Quick Setup
 
