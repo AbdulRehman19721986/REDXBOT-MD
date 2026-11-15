@@ -2,6 +2,8 @@
 
 **REDx MD Bot** is a WhatsApp Multi-Device automation bot project developed and maintained by **Abdul Rehman Rajpoot**.
 
+> **REDX MINI BOT:** The official REDX MINI BOT (REDXMINIBOT) WhatsApp phone-number and QR pairing website is [redxminibot.vercel.app](https://redxminibot.vercel.app/). It is a companion REDX project maintained by the same developer, Abdul Rehman Rajpoot ([GitHub profile](https://github.com/AbdulRehman19721986)).
+
 > **Project name history:** This project was previously published as **REDXBOT302**. REDx MD Bot is its current name; REDXBOT302 is retained here as the former name so existing users can recognize the project.
 
 - **Developer:** Abdul Rehman Rajpoot
@@ -16,7 +18,7 @@
 
 REDx MD Bot is a Node.js-based WhatsApp bot built around the Baileys WhatsApp Web library. This repository contains the bot source code, configuration, plugins, and deployment files. The project is intended for users who want to configure and run their own WhatsApp Multi-Device bot.
 
-Search terms associated with this project include **REDx MD Bot**, **REDx MD**, **REDXBOT302**, **WhatsApp bot**, **WhatsApp Multi-Device bot**, and **Abdul Rehman Rajpoot**.
+Search terms associated with the REDx projects include **REDX MINI BOT**, **REDXMINIBOT**, **REDX Mini**, **REDX Bot**, **REDx MD Bot**, **REDx MD**, **REDXBOT302**, **WhatsApp bot**, **WhatsApp Multi-Device bot**, **WhatsApp pairing**, **Abdul Rehman Rajpoot**, **AbdulRehmanRajpoot**, and **AbdulRehman19721986**.
 
 ## Features
 
@@ -106,6 +108,7 @@ Keep credentials and private session data in environment variables. Do not commi
 ## Official Project Links
 
 - **GitHub repository:** https://github.com/AbdulRehman19721986/REDXBOT-MD
+- **REDX MINI BOT website:** https://redxminibot.vercel.app/
 - **Developer profile:** https://github.com/AbdulRehman19721986
 - **WhatsApp Channel:** https://whatsapp.com/channel/0029VbCPnYf96H4SNehkev10
 
