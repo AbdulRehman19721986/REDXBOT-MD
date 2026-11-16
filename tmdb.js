@@ -35,7 +35,7 @@ module.exports = [{
       await reply(`❌ Error: ${e.message}`);
     }
   }
-  ,{
+},{
   pattern: "movie",
   alias: ["film", "movieinfo"],
   desc: "Search movie information and official trailer",
@@ -78,7 +78,7 @@ module.exports = [{
 
       const year = movie.release_date ? movie.release_date.slice(0, 4) : "N/A";
       const overview = (movie.overview || "No synopsis is available.")
-        .replace(/\\s+/g, " ")
+        .replace(/\s+/g, " ")
         .slice(0, 650);
       const info = [
         `🎬 *${movie.title || "Unknown title"}*`,
